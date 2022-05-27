@@ -15,7 +15,7 @@ function ChatHeader({ channelName }) {
             </div>
             <div className = "chatHeader__right">
                 <a href='http://maps.google.com'><MapOutlined /></a>>
-                < VideoCall />
+                <a href='https://spectrum-video-conference.herokuapp.com/'><VideoCall /></a>>
                 <PeopleAltRounded />
 
                 <div className = "chatHeader__search">
