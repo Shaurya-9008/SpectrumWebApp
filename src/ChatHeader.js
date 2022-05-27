@@ -23,7 +23,7 @@ function ChatHeader({ channelName }) {
                     <SearchRounded />
                 </div>
                 <SendRounded />
-                <HelpRounded />
+                <a href='./help.jpeg'><HelpRounded /></a>
             </div>
         </div>
     )
