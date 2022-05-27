@@ -1,4 +1,5 @@
 .login {
+  background-image: url("https://images.hdqwalls.com/download/rainbow-spectrum-hd-jv-1920x1080.jpg") ;
   display: grid;
   place-items: center;
   height: 100vh;
@@ -26,4 +27,23 @@
 .login > div > img {
   object-fit: contain;
   height: 100px;
+}
+.text{
+  text-align: center;
+  color: rgb(77, 30, 8);;
+}
+.info{
+  background: -webkit-linear-gradient(rgb(42, 15, 77), rgb(59, 30, 175));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Lobster;
+  margin-top: 90px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 40px;
+  text-align: center;
+
+}
+.box{
+  size:large;
 }
