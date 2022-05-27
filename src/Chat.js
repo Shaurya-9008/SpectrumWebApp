@@ -77,7 +77,7 @@ function Chat() {
                     <CardGiftcard fontSize
                     = "large"/>
                     <Gif fontSize = "large" />
-                    <EmojiEmotions fontSize = "large" />
+                   <a href='http://tenor.com'> <EmojiEmotions fontSize = "large" /></a>
             </div>
         </div>
     </div>
