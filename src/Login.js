@@ -11,14 +11,18 @@ function Login() {
         <div className = "login">
             <div className = "login__logo">
                 <img 
-                    src = "https://static.vecteezy.com/system/resources/thumbnails/000/595/469/small/20012019-14.jpg"
+                    src = "https://cdn.dribbble.com/users/112923/screenshots/2444129/spectrum-icon.jpg"
                     alt = ""
                 />
-                <h2>Design and developed by Team Spectrum</h2>
+                <h2 className='text'>Design and developed by Team Spectrum</h2>
+                <div className='box'>
+                    <h3 className="info">One platform for your team and your work
+All the features of Spectrum work together so you can too...!</h3>
+                </div>
             </div>
             <Button 
                 onClick = {signIn}
-                className = "login__button">Sign In</Button>
+                className = "login__button">Sign In with Google</Button>
         </div>
     )
 }
