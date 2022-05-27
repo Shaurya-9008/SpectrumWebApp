@@ -31,12 +31,10 @@
 }
 .text{
   text-align: center;
-  color: rgb(77, 30, 8);;
+  color: white;
 }
 .info{
-  background: -webkit-linear-gradient(rgb(42, 15, 77), rgb(59, 30, 175));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
   font-family: Lobster;
   margin-top: 90px;
   margin-left: 25%;
