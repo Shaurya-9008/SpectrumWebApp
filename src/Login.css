@@ -1,5 +1,6 @@
 .login {
-  background-image: url("https://images.hdqwalls.com/download/rainbow-spectrum-hd-jv-1920x1080.jpg") ;
+  background-image: url("./back.png") ;
+  background-size: cover;
   display: grid;
   place-items: center;
   height: 100vh;
