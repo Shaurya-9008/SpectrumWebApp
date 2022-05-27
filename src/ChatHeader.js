@@ -1,4 +1,4 @@
-import { EditLocation, HelpRounded, Notifications, PeopleAltRounded, SearchRounded, SendRounded } from '@material-ui/icons'
+import {  VideoCall, HelpRounded, Notifications, PeopleAltRounded, SearchRounded, SendRounded } from '@material-ui/icons'
 import React from 'react'
 import './ChatHeader.css'
 
@@ -15,7 +15,7 @@ function ChatHeader({ channelName }) {
             </div>
             <div className = "chatHeader__right">
                 <Notifications />
-                <EditLocation />
+                < VideoCall />
                 <PeopleAltRounded />
 
                 <div className = "chatHeader__search">
