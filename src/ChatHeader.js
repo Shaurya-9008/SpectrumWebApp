@@ -14,7 +14,7 @@ function ChatHeader({ channelName }) {
                 </h3>
             </div>
             <div className = "chatHeader__right">
-                <MapOutlined />
+                <a href='http://maps.google.com'><MapOutlined /></a>>
                 < VideoCall />
                 <PeopleAltRounded />
 
